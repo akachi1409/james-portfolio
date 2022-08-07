@@ -1,0 +1,1419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--=====  Meta Data  ======-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>James Wen</title>
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+    <meta name="author" content="James Wen">
+    <meta name="language" content="english">
+    <meta name="distribution" content="global">
+    <meta name="description" content="With rich experience in frontend and backend development, I have held various positions as a freelancer, managing partner, and employee. I specialize in clean, modern, visually appealing frontend and backend development, but my core focuses are also usability and functionality. All my works are in step with modern technology. My fields of expertise: * Frontend web development - Angular, React, Vue * Backend web development - Python, Node express, * Fullstack web development - MERN, MEAN, Vue+Laravel, Django + React I worked with numerous clients from all around the world from early startups to well-established companies. I always seek new opportunities for cooperation on projects around interesting dashboards or landing pages.">
+  
+    <meta name="twitter:widgets:csp" content="on">
+    <meta name="keywords" content="James Wen, Full-stack developer, Web developer, Front-end developer, Back-end developer, Senior Developer, Blockchain Developer">
+    <meta name="robots" content="index, follow">
+    <meta property="og:site_name" content="James Wen">
+    <meta property="og:title" content="James Wen">
+    <meta name="google-site-verification" content="LzkNOgZrL2Hihgif603MLi-T-XNKLwIivrKnU3en_dE" />
+
+    <!--=====  Vendors Styles  ======-->
+    <link rel="stylesheet" href="vendor/loaders.css/loaders.min.css" type="text/css">
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="vendor/swiper/css/swiper.min.css" type="text/css">
+    <link rel="stylesheet" href="vendor/animate.css/animate.min.css" type="text/css">
+    <link rel="stylesheet" href="vendor/formstone/css/lightbox.css" type="text/css">
+    <link rel="stylesheet" href="vendor/formstone/css/background.css" type="text/css">
+    <link rel="stylesheet" href="vendor/mediaelement/mediaelementplayer.min.css" type="text/css">
+    <link rel="stylesheet" href="vendor/text-animation-css/css/index.css" type="text/css">
+
+    <!--=====  App Styles  ======-->
+    <link rel="stylesheet" href="assets/css/app.css" type="text/css">
+    <link rel="stylesheet" id="kingma-colors" href="assets/css/colors/red.css" type="text/css">
+
+    <!--=====  Google Web Fonts  ======-->
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic%7cOpen+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+
+
+    <style>
+        /* Preloader */
+        
+        #preloader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background-color: #0f161e;
+            z-index: 9999;
+        }
+        
+        #loader {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+        }
+    </style>
+    <script src="vendor/modernizr/js/index.js"></script>
+</head>
+
+<body class="default" data-spy="scroll" data-target="#top-menu">
+
+    <div id="preloader">
+        <div id="loader">
+            <div class="loader-inner line-scale">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <!-- /#loader -->
+    </div>
+    <!-- /#preloader -->
+    <div id="page-outer">
+
+
+        <!--==============================
+	=            Header            =
+	==============================-->
+        <header id="header" class="site-header">
+            <div class="container-fluid">
+
+                <div id="logo">
+                    <a href="index.html">
+                        <img src="assets/img/logo.png" alt="KingMa">
+                        <img class="transparent-logo" src="assets/img/logo-transparent.png" alt="KingMa">
+                    </a>
+                    <!-- <a href="index.html">
+				KingMa
+			</a> -->
+                </div>
+                <!-- /#logo -->
+
+                <div id="primary-menu">
+
+                    <div id="top-social">
+                        <ul class="social-icons">
+                            <li><a href="https://www.linkedin.com/in/lahmjameswen/"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="https://github.com/akachi1409"><i class="fa fa-github"></i></a></li>
+                            <li><a href="https://t.me/Akachi1325"><i class="fa fa-telegram"></i></a></li>
+                        </ul>
+                    </div>
+                    <!-- /#top-social -->
+                </div>
+                <!-- /#primary-menu -->
+
+            </div>
+            <!-- /.container-fluid -->
+        </header>
+        <!-- /#header -->
+        <div id="side-menu" class="side-menu">
+            <ul class="nav" role="tablist">
+                <li class="active"><a data-type="section-switch" href="#banner"><i class="dti-home"></i></a></li>
+                <li><a data-type="section-switch" href="#about-us"><i class="dti-gear"></i></a></li>
+                <li><a data-type="section-switch" href="#why-choose-us"><i class="dti-key"></i></a></li>
+                <li><a data-type="section-switch" href="#portfolio"><i class="dti-picture"></i></a></li>
+                <li><a data-type="section-switch" href="#pricing-tables"><i class="dti-notebook"></i></a></li>
+                <li><a data-type="section-switch" href="#contact-area"><i class="dti-mails"></i></a></li>
+            </ul>
+        </div>
+        <!-- /#side-menu -->
+
+        <!--==============================
+	=            Banner            =
+	==============================-->
+        <section id="banner" class="main-slider" data-carousel="swiper">
+            <div id="banner-container" class="swiper-container full-screen" data-swiper="container" data-loop="true" data-autoplay="7000">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide-item" data-parallax="image" data-bg-image="images/slider/mask-girl.jpg">
+
+                        <div class="overlay full-screen" data-bg-color="rgba(0,0,0,0.55)">
+                            <div class="slide-caption">
+                                <h2 class="slider-huge-title text-center text-uppercase" data-animate="fadeInUp" data-delay="0.6s" data-duration="0.5s">I Am <span>James Wen</span></h2>
+
+                                <div class="slide-tag text-center text-uppercase" data-animate="fadeInUp" data-delay="0.8s" data-duration="0.5s">
+                                    <span>Build your website</span>
+                                    <span>-</span>
+                                    <span>Grow your business</span>
+                                </div>
+                                <!-- /.slide-tag -->
+
+                                <div class="slide-description text-center" data-animate="fadeInUp" data-delay="1.0s" data-duration="0.5s">
+                                    <em>I create engaging websites and ongoing marketing support.</em>
+                                </div>
+                                <!-- /.slide-description -->
+                            </div>
+                            <!-- /.slide-caption -->
+                        </div>
+                        <!-- /.overlay -->
+
+                    </div>
+                    <!-- /.swiper-slide -->
+
+                    <div class="swiper-slide slide-item" data-parallax="image" data-bg-image="images/slider/3dman.jpg">
+
+                        <div class="overlay full-screen" data-bg-color="rgba(0,0,0,0.55)">
+                            <div class="slide-caption">
+                                <h2 class="slider-huge-title text-center text-uppercase" data-animate="fadeInUp" data-delay="0.6s" data-duration="0.5s">Blockchain Solution</span></h2>
+
+                                <div class="slide-tag text-center text-uppercase" data-animate="fadeInUp" data-delay="0.8s" data-duration="0.5s">
+                                    <span>Build your Dapp</span>
+                                    <span>-</span>
+                                    <span>Grow your business</span>
+                                </div>
+                                <!-- /.slide-tag -->
+
+                                <div class="slide-description text-center" data-animate="fadeInUp" data-delay="1.0s" data-duration="0.5s">
+                                    <em>Whether you are working on a new startup or have an existing product, <br>I'd love the opportunity to help you and your team solve your most challenging problems.</em>
+                                </div>
+                                <!-- /.slide-description -->
+                            </div>
+                            <!-- /.slide-caption -->
+                        </div>
+                        <!-- /.overlay -->
+
+                    </div>
+                    <!-- /.swiper-slide -->
+
+                </div>
+                <!-- /.swiper-wrapper -->
+
+            </div>
+            <!-- /.swiper-container -->
+
+            <!-- Add Arrows -->
+            <div id="banner-slider-next" class="slide-button next dti-slim-right" data-swiper="next">
+            </div>
+            <div id="banner-slider-prev" class="slide-button prev dti-slim-left" data-swiper="prev">
+            </div>
+
+            <a data-type="section-switch" href="#about-us">
+                <div class="triangle">
+                    <span>More</span>
+                </div>
+                <!-- /.triangle -->
+            </a>
+        </section>
+        <!-- /#banner -->
+
+
+        <!--==============================
+	=            About Us          =
+	==============================-->
+        <section id="about-us" class="black-background white-text font-open-san">
+            <div class="container">
+
+                <div class="section-header">
+
+                    <span class="heading-effect outside"></span>
+
+                    <h3 class="sub-heading wow fadeInUp" data-wow-delay="0.3s">You should know</h3>
+                    <h2 class="heading wow fadeInUp" data-wow-delay="0.5s"><span>Who</span> I Am</h2>
+
+                    <div class="description wow fadeInUp" data-wow-delay="0.7s">
+                        Do you need a professional website to support your business?<br>
+                        Do you need your own successful blockchain world?<br> 
+                        Do you need your own successful blockchain world?<br> 
+                        If yes, You are in the right place.
+                    </div>
+                    <!-- /.description -->
+
+                </div>
+                <!-- /.section-header -->
+
+                <div class="row align-center">
+                    <div class="col-md-5 wow fadeInLeft" data-wow-delay="0.9s">
+                        <img src="images/others/human-tree0.png" style="margin-top:50px;" alt="Human Tree">
+                    </div>
+                    <!-- /.col-md-6 -->
+
+                    <div class="col-md-5 col-md-offset-2">
+                        <div class="row">
+                            <h4 class="text-uppercase skills-title" data-margin-bottom="95px">Skills</h4>
+
+                            <div class="skill-items">
+
+                                <div class="item wow fadeInUp" data-wow-delay="0.3s">
+                                    <div class="name">Solidity</div>
+                                    <div class="dt-progress">
+                                        <span data-amount="93%"></span>
+                                    </div>
+                                    <!-- /.dt-progress -->
+                                </div>
+                                <!-- /.item -->
+
+                                <div class="item wow fadeInUp" data-wow-delay="0.5s">
+                                    <div class="name">Rust</div>
+                                    <div class="dt-progress">
+                                        <span data-amount="85%"></span>
+                                    </div>
+                                    <!-- /.dt-progress -->
+                                </div>
+
+                                
+                                <div class="item wow fadeInUp" data-wow-delay="0.4s">
+                                    <div class="name">Web3</div>
+                                    <div class="dt-progress">
+                                        <span data-amount="95%"></span>
+                                    </div>
+                                    <!-- /.dt-progress -->
+                                </div>
+                                <div class="item wow fadeInUp" data-wow-delay="0.5s">
+                                    <div class="name">Angular</div>
+                                    <div class="dt-progress">
+                                        <span data-amount="90%"></span>
+                                    </div>
+                                    <!-- /.dt-progress -->
+                                </div>
+                                <!-- /.item -->
+
+                                <div class="item wow fadeInUp" data-wow-delay="0.7s">
+                                    <div class="name">React</div>
+                                    <div class="dt-progress">
+                                        <span data-amount="97%"></span>
+                                    </div>
+                                    <!-- /.dt-progress -->
+                                </div>
+                                <!-- /.item -->
+
+                                <div class="item wow fadeInUp" data-wow-delay="0.9s">
+                                    <div class="name">Vue</div>
+                                    <div class="dt-progress">
+                                        <span data-amount="88%"></span>
+                                    </div>
+                                    <!-- /.dt-progress -->
+                                </div>
+                                <!-- /.item -->
+
+                                <div class="item wow fadeInUp" data-wow-delay="0.7s">
+                                    <div class="name">Node.js</div>
+                                    <div class="dt-progress">
+                                        <span data-amount="93%"></span>
+                                    </div>
+                                    <!-- /.dt-progress -->
+                                </div>
+                                <!-- /.item -->
+                                
+                                <div class="item wow fadeInUp" data-wow-delay="0.4s">
+                                    <div class="name">PHP</div>
+                                    <div class="dt-progress">
+                                        <span data-amount="92%"></span>
+                                    </div>
+                                    <!-- /.dt-progress -->
+                                </div>
+                                <!-- /.item -->
+
+                                <div class="item wow fadeInUp" data-wow-delay="0.4s">
+                                    <div class="name">WebGL</div>
+                                    <div class="dt-progress">
+                                        <span data-amount="92%"></span>
+                                    </div>
+                                    <!-- /.dt-progress -->
+                                </div>
+                                <!-- /.item -->
+                                
+                                <div class="item wow fadeInUp" data-wow-delay="0.3s">
+                                    <div class="name">Python</div>
+                                    <div class="dt-progress">
+                                        <span data-amount="73%"></span>
+                                    </div>
+                                    <!-- /.dt-progress -->
+                                </div>
+                                <!-- /.item -->
+
+                            </div>
+                            <!-- /.skill-items -->
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!-- /.col-md-5 -->
+                </div>
+                <!-- /.row -->
+
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /#about-us -->
+
+        <!--==============================
+	=            Why Choose Us     =
+	==============================-->
+        <section id="why-choose-us" data-type="overlay-section" data-bg-image="images/backgrounds/why-choose-us.jpg">
+            <div class="overlay" data-bg-color="rgba(255,255,255,0.9)" data-padding-bottom="300px">
+                <div class="container">
+
+                    <div class="section-header">
+                        <span class="heading-effect"></span>
+
+                        <h3 class="sub-heading wow fadeInUp" data-wow-delay="0.3s">You Can See Here</h3>
+                        <h2 class="heading wow fadeInUp" data-wow-delay="0.5s"><span>Why</span> Choose Me</h2>
+
+                        <div class="description wow fadeInUp" data-wow-delay="0.7s">
+                            I specialize in helping early stage startups validate their riskiest assumptions using leading develop methods.
+                        </div>
+                        <!-- /.description -->
+                    </div>
+                    <!-- /.section-header -->
+
+                    <div class="features-circle" data-padding-top="50px">
+                        <div class="row">
+
+                            <div class="col-sm-3">
+                                <div class="circle-iconic-box left-side">
+
+                                    <div class="box-item wow bounceInLeft" data-wow-delay="0.3s">
+                                        <div class="icon">
+                                            <i class="fa fa-btc"></i>
+                                        </div>
+                                        <!-- /.icon -->
+                                        <div class="content">
+                                            High Quality
+                                        </div>
+                                        <h4 class="title">BLOCKCHAIN DEVELOPMENT</h4>
+                                        <!-- /.content -->
+                                    </div>
+                                    <!-- /.box-item -->
+
+                                    <div class="box-item wow bounceInLeft" data-wow-delay="0.5s">
+                                        <div class="icon">
+                                            <i class="fa fa-clock-o"></i>
+                                        </div>
+                                        <!-- /.icon -->
+                                        <div class="content">
+                                            Pick up new technologies as required.
+                                        </div>
+                                        <h4 class="title">Quick Learner</h4>
+                                        <!-- /.content -->
+                                    </div>
+                                    <!-- /.box-item -->
+
+                                    <div class="box-item wow bounceInLeft" data-wow-delay="0.7s">
+                                        <div class="icon">
+                                            <i class="fa fa-code"></i>
+                                        </div>
+                                        <!-- /.icon -->
+                                        <div class="content">
+                                            Full experience.
+                                        </div>
+                                        <h4 class="title">Strong Coding</h4>
+                                        <!-- /.content -->
+                                    </div>
+                                    <!-- /.box-item -->
+
+                                </div>
+                                <!-- /.left-side -->
+                            </div>
+                            <!-- /.col-sm-3 -->
+
+                            <div class="col-sm-6">
+                                <div class="middle-circle">
+
+                                    <div class="icon size-xxl wow bounceIn" data-wow-delay="0.3s">
+                                        <span class="direction"></span>
+                                        <i class="fa fa-html5"></i>
+                                    </div>
+                                    <!-- /.icon -->
+
+                                    <div class="icon size-m wow bounceIn" data-wow-delay="0.5s">
+                                        <span class="direction"></span>
+                                        <i class="fa fa-clock-o"></i>
+                                    </div>
+                                    <!-- /.icon -->
+
+                                    <div class="icon wow bounceIn" data-wow-delay="0.7s">
+                                        <span class="direction"></span>
+                                        <i class="fa fa-code"></i>
+                                    </div>
+                                    <!-- /.icon -->
+
+                                    <img src="assets/img/logo-v2.png" alt="KingMa">
+
+                                    <div class="icon wow bounceIn" data-wow-delay="0.3s">
+                                        <span class="direction"></span>
+                                        <i class="fa fa-users"></i>
+                                    </div>
+                                    <!-- /.icon -->
+
+                                    <div class="icon size-l wow bounceIn" data-wow-delay="0.5s">
+                                        <span class="direction"></span>
+                                        <i class="fa fa-tasks"></i>
+                                    </div>
+                                    <!-- /.icon -->
+
+                                    <div class="icon wow bounceIn" data-wow-delay="0.7s">
+                                        <span class="direction"></span>
+                                        <i class="fa fa-pencil"></i>
+                                    </div>
+                                    <!-- /.icon -->
+
+                                    <div class="icon size-xl wow bounceIn" data-wow-delay="0.9s">
+                                        <span class="direction"></span>
+                                        <i class="fa fa-database"></i>
+                                    </div>
+                                    <!-- /.icon -->
+
+                                </div>
+                                <!-- /.middle-circle -->
+                            </div>
+                            <!-- /.col-sm-6 -->
+
+                            <div class="col-sm-3">
+                                <div class="circle-iconic-box right-side">
+
+                                    <div class="box-item wow bounceInRight" data-wow-delay="0.3s">
+                                        <div class="icon">
+                                            <i class="fa fa-users"></i>
+                                        </div>
+                                        <!-- /.icon -->
+                                        <div class="content">
+                                            Good communication
+                                        </div>
+                                        <h4 class="title">Team Player</h4>
+                                        <!-- /.content -->
+                                    </div>
+                                    <!-- /.box-item -->
+
+                                    <div class="box-item wow bounceInRight" data-wow-delay="0.5s">
+                                        <div class="icon">
+                                            <i class="fa fa-tasks"></i>
+                                        </div>
+                                        <!-- /.icon -->
+                                        <div class="content">
+                                            It's strong.
+                                        </div>
+                                        <h4 class="title">Project Management</h4>
+                                        <!-- /.content -->
+                                    </div>
+                                    <!-- /.box-item -->
+
+                                    <div class="box-item wow bounceInRight" data-wow-delay="0.7s">
+                                        <div class="icon">
+                                            <i class="fa fa-pencil"></i>
+                                        </div>
+                                        <!-- /.icon -->
+                                        <div class="content">
+                                            It's flexible.
+                                        </div>
+                                        <h4 class="title">Easy To Maintenance</h4>
+                                        <!-- /.content -->
+                                    </div>
+                                    <!-- /.box-item -->
+
+                                    <div class="box-item wow bounceInRight" data-wow-delay="0.9s">
+                                        <div class="icon">
+                                            <i class="fa fa-database"></i>
+                                        </div>
+                                        <!-- /.icon -->
+                                        <div class="content">
+                                            It's Stubborn.
+                                        </div>
+                                        <h4 class="title">Backend Development</h4>
+                                        <!-- /.content -->
+                                    </div>
+                                    <!-- /.box-item -->
+
+                                </div>
+                                <!-- /.right-side -->
+                            </div>
+                            <!-- /.col-sm-3 -->
+
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!-- /.features-circle -->
+
+                </div>
+                <!-- /.container -->
+
+                <div class="clearfix"></div>
+
+            </div>
+            <!-- /.overlay -->
+        </section>
+        <!-- /#why-choose-us -->
+
+        <!--==============================
+	=            Site Stats        =
+	==============================-->
+        <section id="site-stats" class="section-padding" data-padding-top="90px" data-padding-bottom="90px" data-bg-color="#f2f4f6">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="stats-item">
+
+                            <div class="glass-icon">
+                                <i class="fa fa-heart"></i>
+                            </div>
+                            <!-- /.glass-icon -->
+
+                            <div class="stat-info">
+                                <div class="back-amount" data-countup="142">
+                                    142
+                                </div>
+                                <!-- /.back-amount -->
+                                <div class="amount" data-countup="142">
+                                    142
+                                </div>
+                                <!-- /.amount -->
+                                <div class="type">
+                                    Total Clients
+                                </div>
+                                <!-- /.type -->
+                            </div>
+                            <!-- /.stat-amount -->
+
+                        </div>
+                        <!-- /.stats-item -->
+                    </div>
+                    <!-- /.col-md-4 col-sm-6 -->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0s">
+                        <div class="stats-item">
+
+                            <div class="glass-icon">
+                                <i class="fa fa-hand-o-right"></i>
+                            </div>
+                            <!-- /.glass-icon -->
+
+                            <div class="stat-info">
+                                <div class="back-amount" data-countup="11">
+                                    11
+                                </div>
+                                <!-- /.back-amount -->
+                                <div class="amount" data-countup="11">
+                                    11
+                                </div>
+                                <!-- /.amount -->
+                                <div class="type">
+                                    Trusted Sponsors
+                                </div>
+                                <!-- /.type -->
+                            </div>
+                            <!-- /.stat-info -->
+
+                        </div>
+                        <!-- /.stats-item -->
+                    </div>
+                    <!-- /.col-md-3 col-sm-6 -->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="stats-item">
+
+                            <div class="glass-icon">
+                                <i class="fa fa-trophy"></i>
+                            </div>
+                            <!-- /.glass-icon -->
+
+                            <div class="stat-info">
+                                <div class="back-amount" data-countup="95">
+                                    95%
+                                </div>
+                                <!-- /.back-amount -->
+                                <div class="amount" data-countup="95">
+                                    95%
+                                </div>
+                                <!-- /.amount -->
+                                <div class="type">
+                                    Sensitive Feedback
+                                </div>
+                                <!-- /.type -->
+                            </div>
+                            <!-- /.stat-info -->
+
+                        </div>
+                        <!-- /.stats-item -->
+                    </div>
+                    <!-- /.col-md-3 col-sm-6 -->
+
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /#site-stats -->
+
+        <!--==============================
+	=            Portfolio         =
+	==============================-->
+        <section id="portfolio" data-bg-color="#f2f4f6">
+            <div class="section-header">
+
+                <span class="heading-effect outside"></span>
+
+                <h3 class="sub-heading wow fadeInUp" data-wow-delay="0.3s">You should know</h3>
+                <h2 class="heading wow fadeInUp" data-wow-delay="0.5s"><span>Great</span> Portfolio</h2>
+
+            </div>
+            <!-- /.section-header -->
+
+            <div class="portfolio-container wow fadeIn" data-wow-delay="0.3s" data-area="isotope">
+
+                <div id="filters" class="button-group filter-btns" data-isotope="filters">
+                    <button class="button is-checked" data-filter="*">All</button>
+                    <button class="button" data-filter=".cat-1">Blockchain</button>
+                    <button class="button" data-filter=".cat-2">Frontend</button>
+                    <button class="button" data-filter=".cat-3">Backend</button>
+                </div>
+
+                <div id="suoer" class="masonry-grid" data-isotope="container">
+
+                    <div class="grid-sizer"></div>
+
+                    <div class="grid-item width4 cat-3 cat-2">
+                        <div class="content">
+                            <div class="item-img" data-bg-image="images/portfolio/portfolio-item-1.jpg"></div>
+                            
+                                <div class="overlay-content">
+                                    <a href="https://contingent.ai/">
+                                        <div class="info">
+                                            <h3 class="title">Contingent</h3>
+                                            <div class="categories">Full-stack</div>
+                                        </div>
+                                    </a>
+                                    <!-- /.info -->
+                                </div>
+                            <!-- /.overlay-content -->
+                        </div>
+                        <!-- /.content -->
+                    </div>
+
+                    <div class="grid-item width4 cat-3 cat-2">
+                        <div class="content">
+                            <div class="item-img" data-bg-image="images/portfolio/portfolio-item-13.jpg"></div>
+                            
+                                <div class="overlay-content">
+                                    <a href="https://selectrealestate.ca/">
+                                        <div class="info">
+                                            <h3 class="title">Select Real Estate</h3>
+                                            <div class="categories">Full-stack</div>
+                                        </div>
+                                    </a>
+                                    <!-- /.info -->
+                                </div>
+                            <!-- /.overlay-content -->
+                        </div>
+                        <!-- /.content -->
+                    </div>
+                    
+                    <div class="grid-item width4 cat-3 cat-2">
+                        <div class="content">
+                            <div class="item-img" data-bg-image="images/portfolio/portfolio-item-14.jpg"></div>
+                            
+                                <div class="overlay-content">
+                                    <a href="https://docspo.com/">
+                                        <div class="info">
+                                            <h3 class="title">Docspo</h3>
+                                            <div class="categories">Full-stack</div>
+                                        </div>
+                                    </a>
+                                    <!-- /.info -->
+                                </div>
+                            <!-- /.overlay-content -->
+                        </div>
+                        <!-- /.content -->
+                    </div>
+
+                    <div class="grid-item width4 cat-3 cat-2">
+                        <div class="content">
+                            <div class="item-img" data-bg-image="images/portfolio/portfolio-item-10.jpg"></div>
+                            
+                                <div class="overlay-content">
+                                    <a href="https://scribbletogether.com/">
+                                        <div class="info">
+                                            <h3 class="title">ScribbleTogether</h3>
+                                            <div class="categories">Full-stack</div>
+                                        </div>
+                                    </a>
+                                    <!-- /.info -->
+                                </div>
+                            <!-- /.overlay-content -->
+                        </div>
+                        <!-- /.content -->
+                    </div>
+
+                    <div class="grid-item width4 cat-1 cat-2 cat-3">
+                        <div class="content">
+
+                            <div class="item-img" data-bg-image="images/portfolio/portfolio-item-16.jpg"></div>
+
+                            <div class="overlay-content">
+                                <a href="https://www.sign-art.app/">
+                                    <div class="info">
+                                        <h3 class="title">SIGN ART (NFT marketplace)</h3>
+                                        <div class="categories">Blockchain</div>
+                                    </div>
+                                </a>
+                                <!-- /.info -->
+                            </div>
+                            <!-- /.overlay-content -->
+                        </div>
+                        <!-- /.content -->
+                    </div>
+                    
+                    <div class="grid-item width4 cat-1 cat-2 cat-3">
+                        <div class="content">
+
+                            <div class="item-img" data-bg-image="images/portfolio/portfolio-item-19.png"></div>
+
+                            <div class="overlay-content">
+                                <a href="https://portion.io">
+                                    <div class="info">
+                                        <h3 class="title">Portion (NFT marketplace)</h3>
+                                        <div class="categories">Blockchain</div>
+                                    </div>
+                                </a>
+                                <!-- /.info -->
+                            </div>
+                            <!-- /.overlay-content -->
+                        </div>
+                        <!-- /.content -->
+                    </div>
+
+                    <div class="grid-item width4 cat-2">
+                        <div class="content">
+
+                            <div class="item-img" data-bg-image="images/portfolio/portfolio-item-20.png"></div>
+
+                            <div class="overlay-content">
+                                <a href="https://mhuryanov.github.io/politicopro/">
+                                    <div class="info">
+                                        <h3 class="title">Politicopro landing page</h3>
+                                        <div class="categories">Front-end</div>
+                                    </div>
+                                </a>
+                                <!-- /.info -->
+                            </div>
+                            <!-- /.overlay-content -->
+                        </div>
+                        <!-- /.content -->
+                    </div>
+
+                    <div class="grid-item width4 cat-2">
+                        <div class="content">
+
+                            <div class="item-img" data-bg-image="images/portfolio/portfolio-item-12.jpg"></div>
+
+                            <div class="overlay-content">
+                                <a href="https://sumi.fillinglife.co/">
+                                    <div class="info">
+                                        <h3 class="title">FIL - SUMI LIMITED</h3>
+                                        <div class="categories">Front-end</div>
+                                    </div>
+                                </a>
+                                <!-- /.info -->
+                            </div>
+                            <!-- /.overlay-content -->
+                        </div>
+                        <!-- /.content -->
+                    </div>
+                    
+                    <!-- /.item -->
+                    <div class="grid-item width4 cat-2 cat-3">
+                        <div class="content">
+                            <div class="item-img" data-bg-image="images/portfolio/portfolio-item-17.png"></div>
+
+                            <div class="overlay-content">
+                                <a href="https://eyeso.co/">
+                                    <div class="info">
+                                        <h3 class="title">EYESO</h3>
+                                        <div class="categories">Full-stack</div>
+                                    </div>
+                                </a>
+                                <!-- /.info -->
+
+                            </div>
+                            <!-- /.overlay-content -->
+                        </div>
+                        <!-- /.content -->
+                    </div>
+                    
+                    <!-- /.item -->
+                    <div class="grid-item width4 cat-1 cat-2 cat-3">
+                        <div class="content">
+                            <div class="item-img" data-bg-image="images/portfolio/portfolio-item-18.png"></div>
+
+                            <div class="overlay-content">
+                                <a href="https://preloved.co.uk">
+                                    <div class="info">
+                                        <h3 class="title">Preloved (P2P Marketplace)</h3>
+                                        <div class="categories">Blockchain</div>
+                                    </div>
+                                </a>
+                                <!-- /.info -->
+
+                            </div>
+                            <!-- /.overlay-content -->
+                        </div>
+                        <!-- /.content -->
+                    </div>
+
+                    <div class="grid-item width4 cat-2">
+                        <div class="content">
+                            <div class="item-img" data-bg-image="images/portfolio/portfolio-item-4.jpg"></div>
+
+                            <div class="overlay-content">
+                                <a href="https://mhuryanov.github.io/Apex/">
+                                    <div class="info">
+                                        <h3 class="title">Apex</h3>
+                                        <div class="categories">Front-end</div>
+                                    </div>
+                                </a>
+                                <!-- /.info -->
+
+                            </div>
+                            <!-- /.overlay-content -->
+                        </div>
+                        <!-- /.content -->
+                    </div>
+                    <!-- /.item -->
+
+                    <!-- /.item -->
+                    <div class="grid-item width4 cat-2 cat-1">
+                        <div class="content">
+
+                            <div class="item-img" data-bg-image="images/portfolio/portfolio-item-3.jpg"></div>
+
+                            <div class="overlay-content">
+                                <a href="https://www.behance.net/gallery/117872267/Map-view-fleet-tracking-web-app-%28VueJS%29">
+                                    <div class="info">
+                                        <h3 class="title">Map View Fleet Tracking Web app</h3>
+                                        <div class="categories">Front-end</div>
+                                    </div>
+                                </a>
+                                <!-- /.info -->
+                            </div>
+                            <!-- /.overlay-content -->
+                        </div>
+                        <!-- /.content -->
+                    </div>
+                    <!-- /.item -->
+                    
+
+                    <div class="grid-item width4 cat-2">
+                        <div class="content">
+                            <div class="item-img" data-bg-image="images/portfolio/portfolio-item-7.jpg"></div>
+
+                            <div class="overlay-content">
+                                <a href="https://www.behance.net/gallery/117872267/Map-view-fleet-tracking-web-app-%28VueJS%29">
+                                    <div class="info">
+                                        <h3 class="title">Learning Course/Music Player</h3>
+                                        <div class="categories">Front-end</div>
+                                    </div>
+                                </a>
+                                <!-- /.info -->
+                            </div>
+                            <!-- /.overlay-content -->
+                        </div>
+                        <!-- /.content -->
+                    </div>
+
+                    <div class="grid-item width4 cat-2 cat-3">
+                        <div class="content">
+                            <div class="item-img" data-bg-image="images/portfolio/portfolio-item-8.jpg"></div>
+
+                            <div class="overlay-content">
+                                <a href="https://www.behance.net/gallery/117872125/Dark-Architect-web-app-%28UIUX-design-built-with-Vue%29">
+                                    <div class="info">
+                                        <h3 class="title">Real Estate CRM</h3>
+                                        <div class="categories">Full-stack</div>
+                                    </div>
+                                </a>
+                                <!-- /.info -->
+                            </div>
+                            <!-- /.overlay-content -->
+                        </div>
+                        <!-- /.content -->
+                    </div>
+                    <!-- /.item -->
+
+                    <div class="grid-item width4 cat-3 cat-2">
+                        <div class="content">
+                            <div class="item-img" data-bg-image="images/portfolio/portfolio-item-9.jpg"></div>
+
+                            <div class="overlay-content">
+                                <a href="https://www.behance.net/gallery/78475777/Music-Web-App-with-Angular-5-Firebase">
+                                    <div class="info">
+                                        <h3 class="title">Music App</h3>
+                                        <div class="categories">Full-stack</div>
+                                    </div>
+                                </a>
+                                <!-- /.info -->
+
+                            </div>
+                            <!-- /.overlay-content -->
+                        </div>
+                        <!-- /.content -->
+                    </div>
+                    <!-- /.item -->
+
+                    <div class="grid-item width4 cat-2 cat-3">
+                        <div class="content">
+                            <div class="item-img" data-bg-image="images/portfolio/portfolio-item-2.jpg"></div>
+
+                            <div class="overlay-content">
+                                <a href="https://www.behance.net/gallery/130041393/Food-website">
+                                    <div class="info">
+                                        <h3 class="title">Restraunt Reservation</h3>
+                                        <div class="categories">Full-stack</div>
+                                    </div>
+                                </a>
+                                <!-- /.info -->
+
+                            </div>
+                            <!-- /.overlay-content -->
+                        </div>
+                        <!-- /.content -->
+                    </div>
+                    <!-- /.item -->
+
+                    <div class="grid-item width4 cat-1 cat-2 cat-3">
+                        <div class="content">
+                            <div class="item-img" data-bg-image="images/portfolio/portfolio-item-17.jpg"></div>
+
+                            <div class="overlay-content">
+                                <a href="https://oncyber.io/">
+                                    <div class="info">
+                                        <h3 class="title">Oncyber</h3>
+                                        <div class="categories">Blockchain</div>
+                                    </div>
+                                </a>
+                                <!-- /.info -->
+
+                            </div>
+                            <!-- /.overlay-content -->
+                        </div>
+                        <!-- /.content -->
+                    </div>
+                    <!-- /.item -->
+
+                    <div class="grid-item width4 cat-1 cat-2 cat-3">
+                        <div class="content">
+                            <div class="item-img" data-bg-image="images/portfolio/portfolio-item-18.jpg"></div>
+
+                            <div class="overlay-content">
+                                <a href="https://oncyber.io/">
+                                    <div class="info">
+                                        <h3 class="title">VG Token</h3>
+                                        <div class="categories">Blockchain</div>
+                                    </div>
+                                </a>
+                                <!-- /.info -->
+
+                            </div>
+                            <!-- /.overlay-content -->
+                        </div>
+                        <!-- /.content -->
+                    </div>
+                    <!-- /.item -->
+
+                    <div class="grid-item width4 cat-1 cat-2 cat-3">
+                        <div class="content">
+                            <div class="item-img" data-bg-image="images/portfolio/portfolio-item-19.jpg"></div>
+
+                            <div class="overlay-content">
+                                <a href="https://oncyber.io/">
+                                    <div class="info">
+                                        <h3 class="title">Color Museum</h3>
+                                        <div class="categories">Blockchain</div>
+                                    </div>
+                                </a>
+                                <!-- /.info -->
+
+                            </div>
+                            <!-- /.overlay-content -->
+                        </div>
+                        <!-- /.content -->
+                    </div>
+                    <!-- /.item -->
+
+                    <div class="grid-item width4 cat-1 cat-2 cat-3">
+                        <div class="content">
+                            <div class="item-img" data-bg-image="images/portfolio/portfolio-item-20.jpg"></div>
+
+                            <div class="overlay-content">
+                                <a href="https://oncyber.io/">
+                                    <div class="info">
+                                        <h3 class="title">ISWAP</h3>
+                                        <div class="categories">Blockchain</div>
+                                    </div>
+                                </a>
+                                <!-- /.info -->
+
+                            </div>
+                            <!-- /.overlay-content -->
+                        </div>
+                        <!-- /.content -->
+                    </div>
+                    <!-- /.item -->
+
+                    <div class="grid-item width4 cat-1 cat-2 cat-3">
+                        <div class="content">
+                            <div class="item-img" data-bg-image="images/portfolio/portfolio-item-21.png"></div>
+
+                            <div class="overlay-content">
+                                <a href="https://oncyber.io/">
+                                    <div class="info">
+                                        <h3 class="title">OxStock</h3>
+                                        <div class="categories">Blockchain</div>
+                                    </div>
+                                </a>
+                                <!-- /.info -->
+
+                            </div>
+                            <!-- /.overlay-content -->
+                        </div>
+                        <!-- /.content -->
+                    </div>
+                    <!-- /.item -->
+
+                </div>
+            </div>
+            <!-- /.portfolio-container -->
+
+            <div data-padding-top="185px"></div>
+
+            <div class="triangle-area wow bounceIn" data-wow-delay="0.3s">
+                <a data-type="section-switch" href="#services">
+                    <div class="triangle">
+                    </div>
+                    <!-- /.triangle -->
+                </a>
+            </div>
+            <!-- /.triangle-area -->
+        </section>
+        <!-- /#portfolio -->
+
+        <!--==============================
+	=            Pricing Table      =
+	==============================-->
+        <section id="pricing-tables" class="pricing-section" data-bg-color="#f2f4f6" data-padding-bottom="150px">
+
+            <div class="section-header">
+                <span class="heading-effect"></span>
+
+                <h3 class="sub-heading">Education and</h3>
+                <h2 class="heading">Work <span>History</span></h2>
+            </div>
+            <!-- /.section-header -->
+
+            <div class="container">
+                <div class="col-md-5 wow fadeInLeft" data-wow-delay="0.3s">
+                    <div class="row">
+                        <div class="pricing-table">
+                            <div class="pricing-header">
+                                <h4 class="name">Education</h4>
+                                <div class="price"><small>COMPUTER SCIENCE</small></div>
+                                <div class="cycle">University of Calgery</div>
+                                <div class="cycle date">Jan 2011 - April 2014</div>
+                                <div class="cycle detail">Major in Full-stack web programming</div>
+                            </div>
+                            <!-- /.pricing-header -->
+                        </div>
+                        <!-- /.pricing-table -->
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- /.col-md-5 -->
+                <div class="col-md-2"></div>
+                <div class="col-md-5 wow fadeInRight" data-wow-delay="0.3s">
+                    <div class="row">
+                        <div class="pricing-table">
+                            <div class="pricing-header">
+                                <h4 class="name">Experience</h4>
+                                <div class="price"><small>Full Stack Developer</small></div>
+                                <div class="cycle">Iron Jupiter Company</div>
+                                <div class="cycle date">May 2014 - Nov 2016</div>
+                                <div class="cycle detail">Build platforms and websites with MERN stack</div>
+
+                                <div class="price"><small>Blockchain Developer</small></div>
+                                <div class="cycle">Exeblock Technology Crop</div>
+                                <div class="cycle date">Feb 2019 - Jan 2020</div>
+                                <div class="cycle detail">Build DAO with Solidiy and Web3</div>
+
+                                <div class="price"><small>Senior Frontend Developer</small></div>
+                                <div class="cycle">Envision</div>
+                                <div class="cycle date">Aug 2021 - May 2022</div>
+                                <div class="cycle detail">Build Ecommerce site with React</div>
+
+                                <div class="price"><small>Senior Blockchain Full Stack Developer</small></div>
+                                <div class="cycle">Freelance</div>
+                                <div class="cycle date">Oct 2021</div>
+                                <div class="cycle detail">Build DAO with Solidiy and Web3</div>
+                            </div>
+                            <!-- /.pricing-header -->
+                        </div>
+                        <!-- /.pricing-table -->
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- /.col-md-5 -->
+            </div>
+            <!-- /.container -->
+
+        </section>
+        <!-- /#pricing-tables -->
+
+        <!--==============================
+	=            Clients Says      =
+	==============================-->
+        <section id="client-testimonials" class="transparent-section" data-parallax="image" data-bg-image="images/backgrounds/client-says.jpg">
+            <div class="overlay" data-bg-color="rgba(0,0,0,0.85)">
+
+                <div class="section-header">
+                    <span class="heading-effect"></span>
+
+                    <h3 class="sub-heading wow fadeInUp" data-wow-duration="1.0s" data-wow-delay="0.5s">Hear What My</h3>
+                    <h2 class="heading wow fadeInUp" data-wow-duration="1.0s" data-wow-delay="0.8s"><span>Clients</span> Says</h2>
+                </div>
+                <!-- /.section-header -->
+
+                <div class="container">
+                    <div class="clients-says-carousel wow fadeInUp" data-wow-duration="1.0s" data-wow-delay="1.1s" data-carousel="swiper">
+
+                        <!-- Swiper -->
+                        <div id="swiper-unique-container-2" class="swiper-container" data-swiper="container" data-loop="true">
+
+                            <div class="swiper-wrapper clients-says-items">
+
+                                <div class="swiper-slide item">
+                                    <div class="info">
+                                        <div class="photo">
+                                            <img src="assets/img/adam.jpg" alt="CLient 1">
+                                        </div>
+                                        <!-- /.photo -->
+
+                                        <div class="name-job">
+                                            <h4 class="name">Adam Gardiner</h4>
+                                            <div class="job">CCO, COO and CMO at Goldco</div>
+                                        </div>
+                                        <!-- /.name-job -->
+                                    </div>
+                                    <!-- /.info -->
+
+                                    <div class="content">
+                                        “James was great to work with. He delivered my project faster than I was expecting and it worked perfectly right away. I'll definitely be working with him again in the future.”
+                                    </div>
+                                    <!-- /.content -->
+                                </div>
+                                <!-- /.item -->
+
+                                <div class="swiper-slide item">
+                                    <div class="info">
+                                        <div class="photo">
+                                            <img src="assets/img/brad.jfif" alt="CLient 2">
+                                        </div>
+                                        <!-- /.photo -->
+
+                                        <div class="name-job">
+                                            <h4 class="name">Nuno Simaria</h4>
+                                            <div class="job">CTO at HelloFresh</div>
+                                        </div>
+                                        <!-- /.name-job -->
+                                    </div>
+                                    <!-- /.info -->
+
+                                    <div class="content">
+                                        “Thanks so much to James for his professionalism and willingness to revise design until satisfactory!”
+                                    </div>
+                                    <!-- /.content -->
+                                </div>
+                                <!-- /.item -->
+
+                                <div class="swiper-slide item">
+                                    <div class="info">
+                                        <div class="photo">
+                                            <img src="assets/img/bridger.jfif" alt="CLient 2">
+                                        </div>
+                                        <!-- /.photo -->
+
+                                        <div class="name-job">
+                                            <h4 class="name">Bridger Maxwell</h4>
+                                            <div class="job">CEO and Co Founder at Scribble</div>
+                                        </div>
+                                        <!-- /.name-job -->
+                                    </div>
+                                    <!-- /.info -->
+
+                                    <div class="content">
+                                        “James jumped into a complex project and did a great job ramping up and completing the large features. It went so well, we asked him to work on other big features we had planned. He kept us updated on progress and was very open to feedback to match the style of code we had in the project already. We hope to work with him again!”
+                                    </div>
+                                    <!-- /.content -->
+                                </div>
+                                <!-- /.item -->
+
+                                <div class="swiper-slide item">
+                                    <div class="info">
+                                        <div class="photo">
+                                            <img src="assets/img/aaron.jpg" alt="CLient 2">
+                                        </div>
+                                        <!-- /.photo -->
+
+                                        <div class="name-job">
+                                            <h4 class="name">Vasil Ivanov</h4>
+                                            <div class="job">CTO at 10minutes AG</div>
+                                        </div>
+                                        <!-- /.name-job -->
+                                    </div>
+                                    <!-- /.info -->
+
+                                    <div class="content">
+                                        “Kudos to James for the job well done. It's not every time you find a developer like him who gets that it's not just a quick job, that some project might be a very important piece of other people's life. Thanks for paying attention to details and for having a good sense of collaboration.”
+                                    </div>
+                                    <!-- /.content -->
+                                </div>
+                                <!-- /.item -->
+
+                                <div class="swiper-slide item">
+                                    <div class="info">
+                                        <div class="photo">
+                                            <img src="assets/img/niko.jfif" alt="CLient 2">
+                                        </div>
+                                        <!-- /.photo -->
+
+                                        <div class="name-job">
+                                            <h4 class="name">Niko Sluzki</h4>
+                                            <div class="job">CTO at Designosis</div>
+                                        </div>
+                                        <!-- /.name-job -->
+                                    </div>
+                                    <!-- /.info -->
+
+                                    <div class="content">
+                                        "James was somewhat new, however on interviewing him, it was immediately apparent that he really knew his stuff. So we took a chance. We struck gold. His input was insightful, his output was exemplary, he was available seemingly 24/7, and he handled our very complex UI requirements like a boss. Phenomenal across the board."
+                                    </div>
+                                    <!-- /.content -->
+                                </div>
+                                <!-- /.item -->
+
+                            </div>
+                            <!-- ./clients-says-items -->
+
+                        </div>
+                        <!-- /.swiper-container -->
+
+                        <!-- Add Arrows -->
+                        <div class="controls wow fadeIn" data-wow-duration="1.0s" data-wow-delay="0.5s">
+                            <div id="swiper-unique-control-prev-2" data-swiper="prev">
+                                <i class="dti-angle-down-left"></i>
+                            </div>
+                            <div id="swiper-unique-control-next-2" data-swiper="next">
+                                <i class="dti-angle-up-right"></i>
+                            </div>
+                        </div>
+                        <!-- /.controls -->
+
+                    </div>
+                    <!-- /.clients-says-carousel -->
+                </div>
+                <!-- /.container -->
+
+                <div data-padding-top="150px"></div>
+
+            </div>
+            <!-- /.overlay -->
+        </section>
+        <!-- /#client-testimonials -->
+
+        <!--==============================
+	=            Contact		    =
+	==============================-->
+        <!-- <section id="contact-area" data-bg-color="#f4f4f6" data-padding-bottom="150px">
+            <div class="container">
+
+                <div class="section-header">
+                    <span class="heading-effect"></span>
+
+                    <h3 class="sub-heading wow fadeInUp" data-wow-delay="0.3s">Say Hello</h3>
+                    <h2 class="heading wow fadeInUp" data-wow-delay="0.5s"><span>Thank you </span> for your visit</h2>
+                </div>
+
+                <div class="col-md-offset-2 col-md-8">
+                    <a href="mailto:mhuryanov@gmail.com">mhuryanov@gmail.com</a>
+                </div>
+            </div>
+        </section> -->
+        <!-- /#contact-area -->
+
+        <!--==============================
+	=            Footer		    	=
+	==============================-->
+        <section id="footer">
+            <div class="overlay relative" data-bg-color="#f4f4f6" data-padding-bottom="100px">
+                <div class="section-header">
+
+                    <span class="heading-effect outside"></span>
+                    <div class="clearfix"></div>
+                    <img src="assets/img/logo-v3.png" alt="Akachi">
+
+                </div>
+                <!-- /.section-header -->
+
+                <div class="container">
+                    <div class="footer-description text-center" data-margin-bottom="65px">
+                        I’m always interested in hearing about new projects and opportunities.<br> You can tell me about the problems you are trying to solve.<br> I'd love to listen and see if there's anything I can do to help you.
+                    </div>
+                    <!-- /.footer-description -->
+
+                    <ul class="contact-address list-unstyled text-center" data-margin-bottom="75px">
+                        <li><a href="mailto:trusteddev1325@gmail.com">trusteddev1325@gmail.com</a></li>
+                    </ul>
+                    <!-- /.contact-address -->
+
+                    <ul class="social-icons text-center rounded medium">
+                        <li><a href="https://www.linkedin.com/in/lahmjameswen/"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="https://github.com/akachi1409"><i class="fa fa-github"></i></a></li>
+                            <li><a href="https://t.me/Akachi1325"><i class="fa fa-telegram"></i></a></li>
+                    </ul>
+                    <!-- /.social-icons -->
+                </div>
+                <!-- /.container -->
+
+            </div>
+            <!-- /.overlay -->
+        </section>
+        <!-- /#footer -->
+
+        <div id="back-to-top">
+            <span>Top</span>
+        </div>
+        <!-- /#back-to-top -->
+
+        <div class="footer-blank"></div>
+        <!-- /.footer-blank -->
+
+
+
+    </div>
+    <!-- /#page-outer -->
+
+    <!--=====  Vendors Scripts  ======-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/isotope/isotope.pkgd.min.js"></script>
+    <script src="vendor/swiper/js/swiper.min.js"></script>
+    <script src="vendor/wow/wow.min.js"></script>
+    <script src="vendor/formstone/js/core.js"></script>
+    <script src="vendor/formstone/js/touch.js"></script>
+    <script src="vendor/formstone/js/transition.js"></script>
+    <script src="vendor/formstone/js/lightbox.js"></script>
+    <script src="vendor/formstone/js/background.js"></script>
+    <script src="vendor/jquery.appear/jquery.appear.js"></script>
+    <script src="vendor/countUp.js/js/countUp.min.js"></script>
+    <script src="vendor/mediaelement/mediaelement-and-player.min.js"></script>
+    <script src="vendor/smoothscroll/SmoothScroll.js"></script>
+    <script src="vendor/text-animation/js/index.js"></script>
+
+    <!--=====  App Scripts  ======-->
+    <script src="assets/js/app.js"></script>
+
+
+</body>
+
+</html>
